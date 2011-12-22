@@ -1,0 +1,1 @@
+This is a sample application showing the full functionality of RoR following the tutorials by Michael Hartl.
