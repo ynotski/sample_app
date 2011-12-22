@@ -17,3 +17,9 @@ gem 'rspec', '2.0.1'
 gem 'webrat', '0.7.1'
 gem 'spork', '0.8.4'
 end
+
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg"
+end
+
