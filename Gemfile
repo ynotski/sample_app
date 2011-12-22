@@ -18,5 +18,11 @@ gem 'webrat', '0.7.1'
 gem 'spork', '0.8.4'
 end
 
+group :production do
+  gem 'pg'
+end
 
+group :development, :test do
+  gem 'sqlite3'
+end
 
